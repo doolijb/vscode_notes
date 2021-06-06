@@ -1,0 +1,12 @@
+    // https://www.programmersought.com/article/45635547150/
+    
+    // cygwin installation directory
+         "terminal.integrated.shell.windows":"C:\\cygwin64\\bin\\bash.exe", //Modify the installation path of cygwin
+         // Make cygwin switch to the current working directory
+    "terminal.integrated.env.windows": {
+        "CHERE_INVOKING": "1"
+    },
+         // Enable cygwin to use Shell commands normally in vscode
+    "terminal.integrated.shellArgs.windows": [
+        "-l"
+    ],
