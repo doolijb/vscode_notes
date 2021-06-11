@@ -1,0 +1,2 @@
+// Automatic ssh keys/login handler
+apt install seahorse
